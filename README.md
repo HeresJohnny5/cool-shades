@@ -7,6 +7,7 @@
 - HTML
 - CSS
 - Bootstrap
+- JavaScript
 
 ## About the product
 
