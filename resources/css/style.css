@@ -5,10 +5,31 @@
 /********************/
 /* BODY CSS */
 /********************/
-
 * {
 	box-sizing: border-box;
 	/* The box-sizing propery is used to tell the browser what the sizing properties (width and height) should include; border-box includes content, padding, and border, but not the margin */
 	margin: 0;
 	padding: 0;
+}
+
+/********************/
+/* HERO IMG CSS */
+/********************/
+.background-image {
+	background-attachment: fixed;
+	background-image: url("../../images/hero.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+/********************/
+/* IMAGES CSS */
+/********************/
+#logo--rock-n-stroll {
+	width: 280px;
+}
+
+#logo--peppers-black-sm {
+	width: 80px;
 }
