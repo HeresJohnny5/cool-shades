@@ -24,10 +24,41 @@
 }
 
 /********************/
+/* HERO CONTENT CSS */
+/********************/
+div.col {
+	margin-top: 10em;
+}
+
+div.col > h2 {
+	color: #fff;
+	font-style: italic;
+	font-size: 3.5em;
+}
+
+div.col > p {
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: 300;
+	line-height: normal;
+}
+
+div.col > a {
+  border-radius: 10px;
+  font-size: 1.25em;
+	padding: .5em 1.5em;
+}
+
+
+
+
+
+
+/********************/
 /* IMAGES CSS */
 /********************/
 #logo--rock-n-stroll {
-	width: 280px;
+	width: 400px;
 }
 
 #logo--peppers-black-sm {
