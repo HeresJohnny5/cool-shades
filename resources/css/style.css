@@ -18,7 +18,7 @@
 .background-image {
 	background-attachment: fixed;
 	background-image: url("../../images/hero.jpg");
-	background-position: center;
+	background-position: top;
 	background-size: cover;
 	height: 100vh;
 }
@@ -32,4 +32,36 @@
 
 #logo--peppers-black-sm {
 	width: 80px;
+}
+
+/********************/
+/* NAVIGATION CSS */
+/********************/
+.navbar-brand, nav {
+	margin-top: 2em;
+}
+
+nav {
+	float: right;
+}
+
+nav > a {
+	color: #fff;
+}
+
+nav > a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+nav > a:nth-of-type(2) {
+	margin: 0 3em;
+}
+
+div.navbar-brand--sublogo {
+	text-align: right;
+}
+
+.navbar-brand--sublogo > span {
+	color: #000;
+	font-style: italic;
 }
