@@ -29,8 +29,9 @@ div.col-md-6 > p {
 	color: #000;
 }
 
-div.col, #hands-free {
-	margin-top: 10em;
+div.col, #hands-free, #bone-conduction-audio {
+	margin-bottom: 8em;
+	margin-top: 8em;
 }
 
 .cta {
@@ -110,14 +111,80 @@ div.navbar-brand--sublogo {
 /********************/
 /* INSTAGRAM FREE CONTENT CSS */
 /********************/
+.instagram-container {
+	padding: 0;
+}
+
 .instagram-image {
-	position: absolute;
+	position: relative;
 	width: 100%;
 }
 
 .instagram-logo {
 	left: 2em;
-	position: relative;
+	position: absolute;
 	top: 28em;
 	width: 5em;
+}
+
+/********************/
+/* FIND YOUR STYLE CONTENT CSS */
+/********************/
+#find-your-style {
+	background-color: #FAFAFA;
+  margin: 0 0 10px 0;
+  padding: 80px 0;
+}
+
+/********************/
+/* PRODUCTS CONTENT CSS */
+/********************/
+#style-products > .row {
+	margin: 0 10px;
+}
+
+.peppers-product {
+	background-color: #FAFAFA;
+	padding: 0 5px;
+}
+
+.peppers-product > img {
+	width: 100%;
+}
+
+.peppers-product > p, .product-price {
+	color: #000;
+	text-align: center;
+}
+
+.peppers-product > p {
+  font-size: 1em;
+  font-weight: 500;
+	margin-bottom: .25em;
+}
+
+p.product-price {
+	font-weight: bold;
+  font-size: 1.25em;
+  margin-bottom: 1.5em;
+}
+
+.peppers-product > h3 {
+  font-style: italic;
+  font-weight: bold;
+	margin-bottom: 1.5em;
+	text-align: center;
+}
+
+.product-cta-container {
+	text-align: center;
+}
+
+/********************/
+/* BONE CONDUCTION AUDIO CONTENT CSS */
+/********************/
+#learn-more {
+	border-bottom: 2px solid red;
+	color: red;
+	font-size: 1.25em
 }
