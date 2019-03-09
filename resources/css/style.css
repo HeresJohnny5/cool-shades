@@ -5,10 +5,6 @@
 /********************/
 /* UNIVERSAL CSS */
 /********************/
-html, body {
-	height: 100%;
-}
-
 * {
 	box-sizing: border-box;
 	/* The box-sizing propery is used to tell the browser what the sizing properties (width and height) should include; border-box includes content, padding, and border, but not the margin */
@@ -55,12 +51,13 @@ div.col, #hands-free, #bone-conduction-audio {
 	height: 100vh;
 }
 
-/* .features-background-image {
+.features-background-image {
 	background: url("../../images/features-background.jpg");
 	background-position: bottom;
 	background-size: cover;
-	height: 100vh;
-} */
+	/* height: 100vh; */
+	min-height: 42em;
+}
 
 /********************/
 /* HERO CONTENT CSS */
@@ -151,9 +148,13 @@ div.navbar-brand--sublogo {
 /********************/
 /* FIND YOUR STYLE CONTENT CSS */
 /********************/
-#find-your-style, #features, #features-specs {
+#find-your-style, #features {
 	background-color: #fAfAfA;
   margin: 0 0 10px 0;
+  padding: 80px 0;
+}
+
+#find-your-style, #features {
   padding: 80px 0;
 }
 
@@ -214,7 +215,13 @@ p.product-price {
 /********************/
 /* FEATURES SPECS CONTENT CSS */
 /********************/
-.features-background-image > div.container > p {
+#features-specs {
+	background-color: #fAfAfA;
+	margin-bottom: 0;
+  padding: 80px 0 0 0;
+}
+
+#features-specs > div.container > p {
 	color: #000;
 	font-size: 2em;
 	font-weight: normal;
