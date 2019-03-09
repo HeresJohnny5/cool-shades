@@ -106,3 +106,18 @@ div.navbar-brand--sublogo {
 #cta-sunglasses {
 	width: 100%;
 }
+
+/********************/
+/* INSTAGRAM FREE CONTENT CSS */
+/********************/
+.instagram-image {
+	position: absolute;
+	width: 100%;
+}
+
+.instagram-logo {
+	left: 2em;
+	position: relative;
+	top: 28em;
+	width: 5em;
+}
