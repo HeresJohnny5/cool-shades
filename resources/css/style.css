@@ -3,13 +3,40 @@
 /********************/
 
 /********************/
-/* BODY CSS */
+/* UNIVERSAL CSS */
 /********************/
 * {
 	box-sizing: border-box;
 	/* The box-sizing propery is used to tell the browser what the sizing properties (width and height) should include; border-box includes content, padding, and border, but not the margin */
 	margin: 0;
 	padding: 0;
+}
+
+h2 {
+	font-style: italic;
+	font-size: 3.5em;
+	font-weight: bold;
+}
+
+p {
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: 300;
+	line-height: normal;
+}
+
+div.col-md-6 > p {
+	color: #000;
+}
+
+div.col, #hands-free {
+	margin-top: 10em;
+}
+
+.cta {
+  border-radius: 10px;
+  font-size: 1.25em;
+	padding: .5em 1.5em;
 }
 
 /********************/
@@ -26,33 +53,9 @@
 /********************/
 /* HERO CONTENT CSS */
 /********************/
-div.col {
-	margin-top: 10em;
-}
-
 div.col > h2 {
 	color: #fff;
-	font-style: italic;
-	font-size: 3.5em;
 }
-
-div.col > p {
-	color: #fff;
-	font-size: 1.5em;
-	font-weight: 300;
-	line-height: normal;
-}
-
-div.col > a {
-  border-radius: 10px;
-  font-size: 1.25em;
-	padding: .5em 1.5em;
-}
-
-
-
-
-
 
 /********************/
 /* IMAGES CSS */
@@ -95,4 +98,11 @@ div.navbar-brand--sublogo {
 .navbar-brand--sublogo > span {
 	color: #000;
 	font-style: italic;
+}
+
+/********************/
+/* HANDS FREE CONTENT CSS */
+/********************/
+#cta-sunglasses {
+	width: 100%;
 }
