@@ -166,7 +166,7 @@ div.navbar-brand--sublogo {
 }
 
 .peppers-product {
-	background-color: #fAfAfA;
+	/* background-color: #fAfAfA; */
 	padding: 0 5px;
 }
 
@@ -175,6 +175,7 @@ div.navbar-brand--sublogo {
 }
 
 .peppers-product > p, .product-price {
+	background-color: #fAfAfA;
 	color: #000;
 	text-align: center;
 }
@@ -182,23 +183,28 @@ div.navbar-brand--sublogo {
 .peppers-product > p {
   font-size: 1em;
   font-weight: 500;
-	margin-bottom: .25em;
+	margin-bottom: 0;
 }
 
 p.product-price {
 	font-weight: bold;
   font-size: 1.25em;
-  margin-bottom: 1.5em;
+  margin-bottom: 0;
+	padding-bottom: 1.5em;
 }
 
 .peppers-product > h3 {
+	background-color: #fAfAfA;
   font-style: italic;
   font-weight: bold;
-	margin-bottom: 1.5em;
+	margin-bottom: 0;
+	padding-bottom: 1.5em;
 	text-align: center;
 }
 
 .product-cta-container {
+	background-color: #fAfAfA;
+	padding-bottom: 5em;
 	text-align: center;
 }
 
