@@ -14,7 +14,7 @@
 
 h2 {
 	font-style: italic;
-	font-size: 3.5em;
+	font-size: 3em;
 	font-weight: bold;
 }
 
@@ -108,6 +108,16 @@ div.navbar-brand--sublogo {
 	width: 100%;
 }
 
+.featurette-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#featurette-cta {
+	width: 11em;
+}
+
 /********************/
 /* INSTAGRAM FREE CONTENT CSS */
 /********************/
@@ -186,5 +196,6 @@ p.product-price {
 #learn-more {
 	border-bottom: 2px solid red;
 	color: red;
-	font-size: 1.25em
+	font-size: 1.25em;
+	width: 5em;
 }
