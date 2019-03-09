@@ -5,6 +5,10 @@
 /********************/
 /* UNIVERSAL CSS */
 /********************/
+html, body {
+	height: 100%;
+}
+
 * {
 	box-sizing: border-box;
 	/* The box-sizing propery is used to tell the browser what the sizing properties (width and height) should include; border-box includes content, padding, and border, but not the margin */
@@ -50,6 +54,13 @@ div.col, #hands-free, #bone-conduction-audio {
 	background-size: cover;
 	height: 100vh;
 }
+
+/* .features-background-image {
+	background: url("../../images/features-background.jpg");
+	background-position: bottom;
+	background-size: cover;
+	height: 100vh;
+} */
 
 /********************/
 /* HERO CONTENT CSS */
@@ -141,7 +152,7 @@ div.navbar-brand--sublogo {
 /* FIND YOUR STYLE CONTENT CSS */
 /********************/
 #find-your-style, #features, #features-specs {
-	background-color: #FAFAFA;
+	background-color: #fAfAfA;
   margin: 0 0 10px 0;
   padding: 80px 0;
 }
@@ -154,7 +165,7 @@ div.navbar-brand--sublogo {
 }
 
 .peppers-product {
-	background-color: #FAFAFA;
+	background-color: #fAfAfA;
 	padding: 0 5px;
 }
 
@@ -203,8 +214,76 @@ p.product-price {
 /********************/
 /* FEATURES SPECS CONTENT CSS */
 /********************/
-#features-specs > div.container > p {
+.features-background-image > div.container > p {
 	color: #000;
 	font-size: 2em;
 	font-weight: normal;
+}
+
+/********************/
+/* FOOTER CONTENT CSS */
+/********************/
+footer {
+	background-color: #000;
+}
+
+.footer-row {
+	padding: 8em 0;
+}
+
+ul {
+	list-style: none;
+}
+
+.footer-list-1 > a > li {
+	color: #fff;
+  font-size: 1.75em;
+}
+
+.footer-list-2 > a > li {
+	color: #c3c3c3;
+  font-size: 1.5em;
+}
+
+.footer-list-1 > a:nth-child(2) > li, .footer-list-2 > a:nth-child(2) > li {
+	margin: .5em 0;
+}
+
+.footer-list-1 > a:hover, .footer-list-2 > a:hover, .legal > a:hover {
+	color: #fff;
+  text-decoration: none;
+}
+
+.footer-row > .col-md-6 {
+	text-align: right;
+}
+
+.footer-brand--sublogo > span {
+	color: #c3c3c3;
+	font-size: .7em;
+	font-style: italic;
+}
+
+#logo-peppers-footer {
+	margin: 0 auto;
+	width: 24%;
+}
+
+.legal {
+	margin: 0 auto;
+	padding: 2em 0 5em 0;
+}
+
+.legal > a > li {
+	color: #fff;
+	display: inline;
+}
+
+.legal > a > li {
+	color: #fff;
+	display: inline;
+}
+
+.legal > a:nth-child(2) > li {
+	margin: 0 5em;
 }
