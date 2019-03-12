@@ -34,12 +34,6 @@ div.col, #hands-free, #bone-conduction-audio {
 	margin-top: 8em;
 }
 
-.cta {
-  border-radius: 10px;
-  font-size: 1.25em;
-	padding: .5em 1.5em;
-}
-
 /********************/
 /* HERO IMG CSS */
 /********************/
@@ -109,6 +103,7 @@ nav > a:nth-of-type(2) {
 /********************/
 .instagram-container {
 	padding: 0;
+	position: relative;
 }
 
 .instagram-image {
@@ -117,9 +112,9 @@ nav > a:nth-of-type(2) {
 }
 
 .instagram-logo {
+	bottom: 1em;
 	left: 2em;
 	position: absolute;
-	top: 28em;
 	width: 5em;
 }
 
