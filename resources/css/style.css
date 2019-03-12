@@ -55,7 +55,6 @@ div.col, #hands-free, #bone-conduction-audio {
 	background: url("../../images/features-background.jpg");
 	background-position: bottom;
 	background-size: cover;
-	/* height: 100vh; */
 	min-height: 42em;
 }
 
@@ -84,10 +83,6 @@ div.col > h2 {
 	margin-top: 2em;
 }
 
-/* nav {
-	float: right;
-} */
-
 nav > a {
 	color: #fff;
 }
@@ -100,31 +95,14 @@ nav > a:nth-of-type(2) {
 	margin: 0 3em;
 }
 
-/* div.navbar-brand--sublogo {
-	text-align: right;
-} */
-
-/* .navbar-brand--sublogo > span {
-	color: #000;
-	font-style: italic;
-} */
-
 /********************/
 /* HANDS FREE CONTENT CSS */
 /********************/
-/* #cta-sunglasses {
-	width: 100%;
-} */
-
 .featurette-text {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
-
-/* #featurette-cta {
-	width: 11em;
-} */
 
 /********************/
 /* INSTAGRAM FREE CONTENT CSS */
@@ -162,13 +140,8 @@ nav > a:nth-of-type(2) {
 }
 
 .peppers-product {
-	/* background-color: #fAfAfA; */
 	padding: 0 5px;
 }
-
-/* .peppers-product > img {
-	width: 100%;
-} */
 
 .peppers-product > p, .product-price {
 	background-color: #fAfAfA;
@@ -274,7 +247,6 @@ ul {
 }
 
 #logo-peppers-footer {
-	/* margin: 0 auto; */
 	width: 25em;
 }
 
