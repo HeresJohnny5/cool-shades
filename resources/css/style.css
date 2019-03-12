@@ -84,9 +84,9 @@ div.col > h2 {
 	margin-top: 2em;
 }
 
-nav {
+/* nav {
 	float: right;
-}
+} */
 
 nav > a {
 	color: #fff;
@@ -100,21 +100,21 @@ nav > a:nth-of-type(2) {
 	margin: 0 3em;
 }
 
-div.navbar-brand--sublogo {
+/* div.navbar-brand--sublogo {
 	text-align: right;
-}
+} */
 
-.navbar-brand--sublogo > span {
+/* .navbar-brand--sublogo > span {
 	color: #000;
 	font-style: italic;
-}
+} */
 
 /********************/
 /* HANDS FREE CONTENT CSS */
 /********************/
-#cta-sunglasses {
+/* #cta-sunglasses {
 	width: 100%;
-}
+} */
 
 .featurette-text {
 	display: flex;
@@ -122,9 +122,9 @@ div.navbar-brand--sublogo {
 	justify-content: center;
 }
 
-#featurette-cta {
+/* #featurette-cta {
 	width: 11em;
-}
+} */
 
 /********************/
 /* INSTAGRAM FREE CONTENT CSS */
@@ -150,12 +150,8 @@ div.navbar-brand--sublogo {
 /********************/
 #find-your-style, #features {
 	background-color: #fAfAfA;
-  margin: 0 0 10px 0;
-  padding: 80px 0;
-}
-
-#find-your-style, #features {
-  padding: 80px 0;
+  /* margin: 0 0 10px 0; */
+  /* padding: 80px 0; */
 }
 
 /********************/
@@ -170,9 +166,9 @@ div.navbar-brand--sublogo {
 	padding: 0 5px;
 }
 
-.peppers-product > img {
+/* .peppers-product > img {
 	width: 100%;
-}
+} */
 
 .peppers-product > p, .product-price {
 	background-color: #fAfAfA;
@@ -278,8 +274,8 @@ ul {
 }
 
 #logo-peppers-footer {
-	margin: 0 auto;
-	width: 24%;
+	/* margin: 0 auto; */
+	width: 25em;
 }
 
 .legal {
