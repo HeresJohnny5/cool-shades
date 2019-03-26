@@ -263,3 +263,25 @@ ul {
 .legal > a:nth-child(2) > li {
 	margin: 0 5em;
 }
+
+/********************/
+/* MEDIA QUERIES CSS */
+/********************/
+#mobile-products {
+	display: block;
+}
+
+#style-products {
+	display: none;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	#mobile-products {
+    display: none;
+  }
+
+  #style-products {
+    display: block;
+  }
+}
