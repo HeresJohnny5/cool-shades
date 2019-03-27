@@ -32,6 +32,8 @@ console.log(shades);
 function colorPicker(e) {
   if (e.classList.contains('black')) {
     console.log(shades[0]);
+
+    $('.product-title').text(shades[0].title);
   } else if (e.classList.contains('red')) {
     console.log(shades[1]);
   } else if (e.classList.contains('green')) {
