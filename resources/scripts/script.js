@@ -1,5 +1,3 @@
-console.log('Working');
-
 let shades = [
   {
     color: 'Red',
@@ -21,26 +19,28 @@ let shades = [
     img: './images/product-black.jpg',
     price: '$199'
   },
-]
-
-console.log(shades);
+];
 
 function colorPicker(e) {
+  let productColorTxt = $('.mobile-product-color');
+  let productPriceTxt = $('.mobile-product-price');
+  let productImg = $('#mobile-products .peppers-product img');
+
   if (e.classList.contains('red')) {
-    $('.mobile-product-color').text(shades[0].color);
-    $('.mobile-product-price').text(shades[0].price);
-    $("#mobile-products .peppers-product img").attr("src", shades[0].img);
+    productColorTxt.text(shades[0].color);
+    productPriceTxt.text(shades[0].price);
+    productImg.attr("src", shades[0].img);
   } else if (e.classList.contains('green')) {
-    $('.mobile-product-color').text(shades[1].color);
-    $('.mobile-product-price').text(shades[1].price);
-    $("#mobile-products .peppers-product img").attr("src", shades[1].img);
+    productColorTxt.text(shades[1].color);
+    productPriceTxt.text(shades[1].price);
+    productImg.attr("src", shades[1].img);
   } else if (e.classList.contains('blue')) {
-    $('.mobile-product-color').text(shades[2].color);
-    $('.mobile-product-price').text(shades[2].price);
-    $("#mobile-products .peppers-product img").attr("src", shades[2].img);
+    productColorTxt.text(shades[2].color);
+    productPriceTxt.text(shades[2].price);
+    productImg.attr("src", shades[2].img);
   } else {
-    $('.mobile-product-color').text(shades[3].color);
-    $('.mobile-product-price').text(shades[3].price);
-    $("#mobile-products .peppers-product img").attr("src", shades[3].img);
+    productColorTxt.text(shades[3].color);
+    productPriceTxt.text(shades[3].price);
+    productImg.attr("src", shades[3].img);
   }
 }
