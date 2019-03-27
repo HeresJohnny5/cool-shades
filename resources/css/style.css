@@ -151,7 +151,7 @@ nav > a:nth-of-type(2) {
 	margin-bottom: 0;
 }
 
-p.product-price {
+p.product-price, p.mobile-product-price {
 	font-weight: bold;
   font-size: 1.25em;
   margin-bottom: 0;
@@ -285,19 +285,19 @@ ul {
 }
 
 .color-selector .dot:first-child {
-	background-color: #000;
-}
-
-.color-selector .dot:nth-child(2) {
 	background-color: #de5542;
 }
 
-.color-selector .dot:nth-child(3) {
+.color-selector .dot:nth-child(2) {
 	background-color: #50ef6e;
 }
 
-.color-selector .dot:nth-child(4) {
+.color-selector .dot:nth-child(3) {
 	background-color: #569be8;
+}
+
+.color-selector .dot:nth-child(4) {
+	background-color: #000;
 }
 
 
