@@ -10,7 +10,6 @@
 	box-sizing: border-box;
 	/* The box-sizing propery is used to tell the browser what the sizing properties (width and height) should include; border-box includes content, padding, and border, but not the margin */
 	margin: 0;
-	overflow-x: hidden;
 	padding: 0;
 }
 
@@ -101,11 +100,18 @@ nav > a:nth-of-type(2) {
 }
 
 /********************/
-/* INSTAGRAM FREE CONTENT CSS */
+/* INSTAGRAM CONTENT CSS */
 /********************/
 .instagram-container {
-	padding: 0;
 	position: relative;
+}
+
+#instagram .instagram-container:first-child {
+	padding-right: 0;
+}
+
+#instagram .instagram-container:nth-child(2) {
+	padding-left: 0;
 }
 
 .instagram-image {
