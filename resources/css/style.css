@@ -10,6 +10,7 @@
 	box-sizing: border-box;
 	/* The box-sizing propery is used to tell the browser what the sizing properties (width and height) should include; border-box includes content, padding, and border, but not the margin */
 	margin: 0;
+	overflow-x: hidden;
 	padding: 0;
 }
 
@@ -351,5 +352,5 @@ ul {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-	
+
 }
