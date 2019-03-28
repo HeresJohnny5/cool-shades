@@ -136,7 +136,9 @@ nav > a:nth-of-type(2) {
 }
 
 .peppers-product {
+	background-color: #fafafa;
 	padding: 0 5px;
+	text-align: center;
 }
 
 .peppers-product > p, .product-price {
@@ -171,6 +173,41 @@ p.product-price, p.mobile-product-price {
 	background-color: #fafafa;
 	padding-bottom: 5em;
 	text-align: center;
+}
+
+/********************/
+/* MOBILE PRODUCTS CONTENT CSS */
+/********************/
+.color-selector {
+	background-color: #fafafa;
+	text-align: center;
+}
+
+.dot {
+	border-radius: 50%;
+	display: inline-block;
+	height: 25px;
+	width: 25px;
+}
+
+.color-selector .dot:first-child, .color-selector .dot:nth-child(2), .color-selector .dot:nth-child(3) {
+	margin-right: 1em;
+}
+
+.color-selector .dot:first-child {
+	background-color: #de5542;
+}
+
+.color-selector .dot:nth-child(2) {
+	background-color: #50ef6e;
+}
+
+.color-selector .dot:nth-child(3) {
+	background-color: #569be8;
+}
+
+.color-selector .dot:nth-child(4) {
+	background-color: #000;
 }
 
 /********************/
@@ -268,40 +305,13 @@ ul {
 /********************/
 /* MEDIA QUERIES CSS */
 /********************/
-.color-selector {
-	background-color: #fafafa;
+#hands-free {
 	text-align: center;
 }
 
-.dot {
-	border-radius: 50%;
-	display: inline-block;
-	height: 25px;
-	width: 25px;
+.hands-free-cta {
+	margin-bottom: 2em;
 }
-
-.color-selector .dot:first-child, .color-selector .dot:nth-child(2), .color-selector .dot:nth-child(3) {
-	margin-right: 1em;
-}
-
-.color-selector .dot:first-child {
-	background-color: #de5542;
-}
-
-.color-selector .dot:nth-child(2) {
-	background-color: #50ef6e;
-}
-
-.color-selector .dot:nth-child(3) {
-	background-color: #569be8;
-}
-
-.color-selector .dot:nth-child(4) {
-	background-color: #000;
-}
-
-
-
 
 #mobile-products {
 	display: block;
@@ -311,8 +321,20 @@ ul {
 	display: none;
 }
 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+	/********************/
+	/* HANDS FREE CONTENT CSS */
+	/********************/
+	#hands-free {
+		text-align: left;
+	}
+
 	#mobile-products {
     display: none;
   }
@@ -320,4 +342,16 @@ ul {
   #style-products {
     display: block;
   }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	body {
+		background-color: red;
+	}
 }
