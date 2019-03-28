@@ -329,6 +329,13 @@ ul {
 }
 
 /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 375px) {
+	#hands-free p {
+		font-size: 1.15em;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
 }
