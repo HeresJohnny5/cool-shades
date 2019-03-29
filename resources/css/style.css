@@ -187,6 +187,7 @@ p.product-price, p.mobile-product-price {
 /********************/
 .color-selector {
 	background-color: #fafafa;
+	margin-top: -8em;
 	text-align: center;
 }
 
@@ -320,12 +321,16 @@ ul {
 	margin-bottom: 2em;
 }
 
-#mobile-products {
+#mobile-products-container {
 	display: block;
 }
 
 #style-products {
 	display: none;
+}
+
+.product-cta-container {
+	padding-bottom: 2em;
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -342,7 +347,7 @@ ul {
 		text-align: left;
 	}
 
-	#mobile-products {
+	#mobile-products-container {
     display: none;
   }
 

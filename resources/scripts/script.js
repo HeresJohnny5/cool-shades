@@ -43,31 +43,21 @@ let shades = [
 //   });
 // }
 
-function colorPicker(product) {
-  console.log('lkdjfldjflkdjf');
-}
-
 function mobileProducts(product) {
-  // console.log('shades: ', shades);
-  //
-  // console.log('product:', product);
-
   return `
     <div class="col peppers-product text-center">
-      <img class="img-fluid" src="${product.img}" alt="Peppers Rock-N-Roll Red">
+      <img class="img-fluid" src="${product.img}" alt="Peppers Rock-N-Stroll Red">
       <p class="product-title">${product.subtitle}</p>
-      <h3>${product.color}</h3>
-
-      <div class="color-selector pb-5">
-        <span class="dot red" data-index="0"></span>
-        <span class="dot green" data-index="1"></span>
-        <span class="dot blue" data-index="2"></span>
-        <span class="dot black" data-index="3"></span>
+      <h3>${product.title}</h3>
+      <div class="circles">
+        <div class="circle red" data-index="0"></div>
+        <div class="circle green" data-index="1"></div>
+        <div class="circle blue" data-index="2"></div>
+        <div class="circle black" data-index="3"></div>
       </div>
-
-      <p class="product-price">${product.price}</p>
+      <p class="product-price">$${product.price}</p>
       <div class="product-cta-container">
-        <a href="#!" class="btn btn-danger btn-lg">Add to Cart</a>
+        <a href="#" class="btn btn-danger btn-lg">Add to Cart</a>
       </div>
     </div>
   `;
@@ -76,11 +66,8 @@ function mobileProducts(product) {
 $(document).ready(function() {
   $('#mobile-products').html(mobileProducts(shades[0]));
 
-  function colorPicker() {
-    $('.dot').click(function() {
-      let index = $(this).data('index');
-      console.log(index);
-      console.log(shades[index]);
-    });
-  }
+  $('.dot').click(function() {
+    let index = $(this).data('index');
+    $('#mobile-products').html(mobileProducts(shades[index]));
+  });
 })
