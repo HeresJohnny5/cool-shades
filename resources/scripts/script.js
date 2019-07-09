@@ -3,45 +3,31 @@ let shades = [
     class: 'red',
     color: 'Red',
     img: './images/product-red.jpg',
-    price: '$199',
+    price: '$99',
     subtitle: 'Rock-N-Stroll'
   },
   {
     class: 'green',
     color: 'Green',
     img: './images/product-green.jpg',
-    price: '$199',
+    price: '$99',
     subtitle: 'Rock-N-Stroll'
   },
   {
     class: 'blue',
     color: 'Blue',
     img: './images/product-blue.jpg',
-    price: '$199',
+    price: '$99',
     subtitle: 'Rock-N-Stroll'
   },
   {
     class: 'black',
     color: 'Black',
     img: './images/product-black.jpg',
-    price: '$199',
+    price: '$99',
     subtitle: 'Rock-N-Stroll'
   },
 ];
-
-// function colorPicker(e) {
-//   let productColorTxt = $('.mobile-product-color');
-//   let productPriceTxt = $('.mobile-product-price');
-//   let productImg = $('#mobile-products .peppers-product img');
-//
-//   shades.forEach((shade, index) => {
-//     if (e.classList.contains(`${shades[index].class}`)) {
-//       productColorTxt.text(shades[index].color);
-//       productPriceTxt.text(shades[index].price);
-//       productImg.attr("src", shades[index].img);
-//     }
-//   });
-// }
 
 function mobileProducts(product) {
   return `
@@ -55,7 +41,7 @@ function mobileProducts(product) {
         <div class="circle blue" data-index="2"></div>
         <div class="circle black" data-index="3"></div>
       </div>
-      <p class="product-price">$${product.price}</p>
+      <p class="product-price">${product.price}</p>
       <div class="product-cta-container">
         <a href="#" class="btn btn-danger btn-lg">Add to Cart</a>
       </div>
